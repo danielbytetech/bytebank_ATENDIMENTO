@@ -1,5 +1,7 @@
 ﻿using bytebank_ATENDIMENTO.bytebank.Atendimento;
 using System;
+using System.Collections;
+using System.Collections.Generic;
 
 /*Documentações a serem Vistas
 - https://learn.microsoft.com/pt-br/dotnet/csharp/linq/get-started/introduction-to-linq-queries
@@ -159,6 +161,21 @@ void TesteArrayDeContasCorrentes()
 //{
 //    Console.WriteLine($"Indice[{i}] = Conta [{range[i].Conta}]");
 //}
+
+//SortedList listaOrdenada = new SortedList(); // Deixa a lista ordenada
+
+//Stack pilha = new Stack();
+//pilha.Peek(); // mostra o primeiro da pilha
+//pilha.Push(); // Adiciona a pilha
+//pilha.Pop(); // Remove o primeiro da pilha
+
+//Queue fila = new Queue();
+//fila.Peek(); // mostra o primeiro da fila 
+//fila.Enqueue(); // Adiciona a fila
+//fila.Dequeue(); // Remove da fila 
+
+//HashSet<int> semDuplicagem = new HashSet<int>(); // Faz com que uma lista não tem elementos iguais ou duplicados 
+
 #endregion
 
 
